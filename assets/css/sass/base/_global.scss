@@ -1,0 +1,25 @@
+/*********************************
+Global */
+
+body {
+	font-size: 14px;
+	line-height: 19px;
+	font-family: $font-family-arial;
+/*	max-width: 2000px;*/
+	margin: 0 auto;
+	font-family: 'news cycle', sans-serif;
+	//text-transform: uppercase;
+        max-width:1500px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.orange {
+	color: $orange;
+}
+
+.bright-blue {
+	color: $bright-blue;
+}

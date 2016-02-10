@@ -6,3 +6,4 @@
 !*/cache/.htaccess
 nbproject/*
 sql_files/*
+fuel/application/cache/*
