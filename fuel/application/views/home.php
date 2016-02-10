@@ -1,1 +1,1 @@
-<?php $CI->load->module_view('app', '_install') ?>
+test
