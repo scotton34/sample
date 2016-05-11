@@ -1,1 +1,10 @@
-<?php $CI->load->module_view('app', '_install') ?>
+<?php
+
+/* 
+ *  Author Stephen Cotton stephen.cotton@stoneacre.co.uk
+ *  Created on 
+ */
+
+?>
+
+dcscdd
