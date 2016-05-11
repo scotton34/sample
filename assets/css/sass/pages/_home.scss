@@ -7,3 +7,20 @@
     Author     : Stephen Cotton <stephen.cotton@stoneacre.co.uk>
 */
 
+.page_header{
+    font-family: $home-header-font-family;
+    font-size: 5em;
+    color: white;
+    text-shadow: 3px 0px 1px rgba(150, 150, 150, 2);
+}
+
+body{
+    background: rgb(53, 53, 53);
+    background: -moz-linear-gradient(79deg, rgb(53, 53, 53) 12%, rgb(17, 17, 17) 100%);
+    background: -webkit-linear-gradient(79deg, rgb(53, 53, 53) 12%, rgb(17, 17, 17) 100%);
+    background: -o-linear-gradient(79deg, rgb(53, 53, 53) 12%, rgb(17, 17, 17) 100%);
+    background: -ms-linear-gradient(79deg, rgb(53, 53, 53) 12%, rgb(17, 17, 17) 100%);
+    background: linear-gradient(169deg, rgb(53, 53, 53) 12%, rgb(17, 17, 17) 100%);
+    padding: 20px;
+    color: white;
+}

@@ -4,7 +4,7 @@
  *  Author Stephen Cotton stephen.cotton@stoneacre.co.uk
  *  Created on 
  */
+ ?>
 
-?>
 
-dcscdd
+<?php echo fuel_var("body"); ?>

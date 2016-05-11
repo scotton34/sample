@@ -14,7 +14,6 @@
 
         <meta name="keywords" content="<?php echo fuel_var('meta_keywords') ?>">
         <meta name="description" content="<?php echo fuel_var('meta_description') ?>">
-
         <link href='https://fonts.googleapis.com/css?family=Irish+Grover' rel='stylesheet' type='text/css'>
         <?php
         echo css('main') . css($css);
