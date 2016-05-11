@@ -7,3 +7,4 @@
 nbproject/*
 sql_files/*
 fuel/application/cache/*
+assets/css/.sass-cache/*
