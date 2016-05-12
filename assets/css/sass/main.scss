@@ -2,10 +2,12 @@
 @import 'helpers/variables';
 @import 'helpers/mixins';
 
+@import 'components/navigation';
+
 @import 'base/ie';
 @import 'base/reset';
 @import 'base/print';
 @import 'base/screen';
 
-@import 'pages/home';
+@import 'pages/main';
 

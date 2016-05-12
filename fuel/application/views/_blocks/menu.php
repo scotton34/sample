@@ -24,7 +24,7 @@ $menu = fuel_nav(array('render_type' => 'array', 'first_class' => 'first', 'last
         }else{
             $liclass = "class='nav_parent'";
         }
-        echo "<li {$liclass}><h5><a href='{$item["location"]}'>{$item['label']}</a></h5>";
+        echo "<a href='{$item["location"]}'><li {$liclass}><h5>{$item['label']}</h5></a>";
 
         if (isset($item['children'])) {
             echo "<ul class='{$ul_li_class}'>";
