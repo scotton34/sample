@@ -1,0 +1,88 @@
+/*
+ Author Stephen Cotton stephen.cotton@stoneacre.co.uk
+ Created on 
+*/
+/* 
+    Created on : 10-Nov-2015, 13:59:06
+    Author     : Stephen Cotton <stephen.cotton@stoneacre.co.uk>
+*/
+.bg-wrapper{
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //background-image: url("/assets/images/desktop.jpg")  !important;
+    
+    padding: 30px;
+}
+
+label {
+    display: block;
+    color: #3D3D4D;
+    margin-bottom: 3px;
+}
+.cf:before,
+.cf:after {
+    content: ""; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+:focus {
+    outline: 0;
+}
+
+.login-header {
+    margin: 0% auto 0% auto;
+    text-align: center;
+}
+
+.loginform {
+    width: 55%;
+    margin: 13% auto 0% auto;
+    padding: 25px;
+    background-color: $color1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2), 
+        inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        display: inline;
+        float: left;
+    }
+    input[type=submit] {
+        @include blue-button-grad;
+        margin-top: 19px;
+    }
+
+    input:not([type=submit]), input:not([type=button]) {
+        @include not-submit-input();
+    }
+
+}
+
+.reset {
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.reset a:hover{
+    text-decoration: none;
+}
+
+.login-message{
+    margin-top:30px;
+    text-align:center;
+}
