@@ -7,3 +7,4 @@
 nbproject/*
 sql_files/*
 fuel/application/cache/*
+fuel/application/config/database.php
