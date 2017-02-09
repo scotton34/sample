@@ -40,7 +40,7 @@
 
 
 //$route['default_controller'] = 'fuel/page_router';
-$route['default_controller'] = 'home';
+$route['default_controller'] = 'main';
 $route['404_override'] = 'fuel/page_router';
 
 /*	
